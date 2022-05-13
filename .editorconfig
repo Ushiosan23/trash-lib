@@ -1,0 +1,23 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = crlf
+indent_size = 4
+indent_style = tab
+insert_final_newline = true
+max_line_length = 128
+tab_width = 4
+
+[*.php]
+ij_php_class_brace_style = end_of_line
+ij_php_block_brace_style = end_of_line
+ij_php_method_brace_style = end_of_line
+
+ij_php_blank_lines_after_class_header = 1
+ij_php_blank_lines_before_class_end = 1
+
+[*.{json,yml}]
+indent_size = 2
+indent_style = space
+insert_final_newline = false

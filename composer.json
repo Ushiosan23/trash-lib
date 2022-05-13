@@ -1,0 +1,10 @@
+{
+  "name": "ushiosan23/trash-lib",
+  "description": "Library created solely for research",
+  "version": "0.0.1",
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*",
+    "ext-fileinfo": "*"
+  }
+}
